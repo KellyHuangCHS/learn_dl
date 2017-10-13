@@ -30,7 +30,7 @@ class Perceptron(object):
         # 最后利用reduce求和
         return self.activator(
             reduce(lambda a, b: a + b,
-                   map(lambda (x, w): x * w,  
+                   map(lambda (x, w): x * w,
                        zip(input_vec, self.weights))
                 , 0.0) + self.bias)
  
