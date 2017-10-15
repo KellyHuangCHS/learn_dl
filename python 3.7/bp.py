@@ -61,7 +61,7 @@ class ConstNode(object):
 
 class Layer(object):
     def __init__(self, layer_index, node_count):
-        self.layer_inidex = layer_index
+        self.layer_index = layer_index
         self.nodes = []
         for i in range(node_count):
             self.nodes.append(Node(layer_index, i))
