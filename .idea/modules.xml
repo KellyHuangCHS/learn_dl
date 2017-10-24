@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/learn_dl.iml" filepath="$PROJECT_DIR$/.idea/learn_dl.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/tflearn/.idea/tflearn.iml" filepath="$USER_HOME$/PycharmProjects/tflearn/.idea/tflearn.iml" />
     </modules>
   </component>
 </project>
